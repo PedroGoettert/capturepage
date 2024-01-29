@@ -14,19 +14,32 @@ Bem-vindo à Página de Captura MKT Virtus! Esta página foi projetada para capt
   npm install -g create-vite
 
 ### Instalação do Repositório
-1 - Clone o Repositório
-  ```bash
-  git clone https://github.com/seu-usuario/mktvirtus-captura.git
 
-2 - Navegue até o Repositório
-  ```bash
-  cd mktvirtus-captura
+Instalação
+Clone o repositório:
 
-3 - Instale as Dependências
-  ```bash
-  npm install
+bash
+Copy code
+git clone https://github.com/seu-usuario/mktvirtus-captura.git
+Navegue até o diretório do projeto:
 
-### Incialização]
+bash
+Copy code
+cd mktvirtus-captura
+Instale as dependências:
+
+bash
+Copy code
+npm install
+Inicialização
+Inicie o servidor de desenvolvimento:
+
+bash
+Copy code
+npm run dev
+Acesse a página no seu navegador em http://localhost:3000.
+
+### Incialização
 
   1 - Inicie o servidor de desenvolvimento
     npm run dev
