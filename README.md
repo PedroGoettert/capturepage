@@ -15,12 +15,15 @@ Bem-vindo à Página de Captura MKT Virtus! Esta página foi projetada para capt
 
 ### Instalação do Repositório
 1 - Clone o Repositório
+  ```bash
   git clone https://github.com/seu-usuario/mktvirtus-captura.git
 
 2 - Navegue até o Repositório
+  ```bash
   cd mktvirtus-captura
 
 3 - Instale as Dependências
+  ```bash
   npm install
 
 ### Incialização]
