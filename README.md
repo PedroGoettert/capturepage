@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Página de Captura MKT Virtus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo à Página de Captura MKT Virtus! Esta página foi projetada para capturar informações de visitantes interessados nos serviços de marketing oferecidos pela MKT Virtus.
 
-Currently, two official plugins are available:
+## Demonstração Visual
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Veja a Demonstração ao Vivo](https://oyagomoreira.com/)
 
-## Expanding the ESLint configuration
+### Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Node.js](https://nodejs.org/) instalado
+- [Vite](https://vitejs.dev/) instalado globalmente:
+  ```bash
+  npm install -g create-vite
 
-- Configure the top-level `parserOptions` property like this:
+### Instalação do Repositório
+1 - Clone o Repositório
+  git clone https://github.com/seu-usuario/mktvirtus-captura.git
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2 - Navegue até o Repositório
+  cd mktvirtus-captura
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3 - Instale as Dependências
+  npm install
+
+### Incialização]
+
+  1 - Inicie o servidor de desenvolvimento
+    npm run dev
+
+
